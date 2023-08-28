@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 120, 160);
+}
+
+#card {
+    height: 500px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.657);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+#card img {
+    height: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#card a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: block; /* Make the link span the full width */
+    margin-top: 10px;
+    margin-bottom: -10px;
+    
+}
+
+.inline-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+
+.inline-content h4 {
+    color: rgb(221, 28, 28);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
+}
+
+.inline-content button {
+    padding: 12px 30px;
+    background-color: aqua;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer; /* Add cursor pointer to the button */
+}
