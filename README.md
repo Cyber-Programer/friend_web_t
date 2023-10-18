@@ -1,1 +1,3 @@
-# friend_web_t
+<p align="center">
+  <img src="removebg.banner.png">
+</p>
